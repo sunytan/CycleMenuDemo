@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="radius">500px</dimen>
+    <dimen name="item_width">100px</dimen>
+    <dimen name="item_height">100px</dimen>
+    <dimen name="center_width">80px</dimen>
+    <dimen name="center_height">80px</dimen>
+</resources>
