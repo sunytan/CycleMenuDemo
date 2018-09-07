@@ -4,7 +4,7 @@
     <groupId>com.young.cyclemenudemo</groupId>
     <artifactId>cyclemenulayout</artifactId>
     <packaging>aar</packaging>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>cyclemenulayout</name>
 
     <parent>
@@ -107,7 +107,7 @@
                 <configuration>
                     　　<username>tanyang93</username>
                     　　<password>ty19930417</password>
-                    　　<tagBase>https://github.com/tanyang93/CycleMenuDemo/tree/1.0.1</tagBase>
+                    　　<tagBase>https://github.com/tanyang93/CycleMenuDemo/tree/1.0.2</tagBase>
                     　　<releaseProfiles>release</releaseProfiles>
                     　　</configuration>
             </plugin>
