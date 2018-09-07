@@ -1,0 +1,13 @@
+ext{
+
+    groupid = "com.young.cyclemenulayout"
+    artifactId = "cyclemenulayout"
+    version = "1.0.0"
+    mavenPackage = "aar"
+    mavenRepoUrl = "http://127.0.0.1:8081/repository/yangtan_mavenhost/"
+    userName = "yang.tan"
+    password = "123456"
+    scmSshRepo = "git@github.com:tanyang93/CycleMenuDemo.git"
+    scmHttoRepo = "https://github.com/tanyang93/CycleMenuDemo.git"
+    developer = "yang.tan"
+}

@@ -1,4 +1,41 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: MAVEN_REPO_URL)
+                    {
+                        authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+                    }
+            pom.project {
+                name rootProject.ext.artifactId
+                groupId PROJ_GROUP
+                artifactId PROJ_ARTIFACT
+                version PROJ_VERSION
+                packaging PACKAGE
+                scm{
+                    url POM_SCM_URL
+                    connection POM_SCM_CONNECTION
+                    developerConnection POM_SCM_DEV_CONNECTION
+                }
+
+                licenses {
+                    license {
+                        name PROJ_LICENCE_NAME
+                        url PROJ_LICENCE_URL
+                        distribution PROJ_LICENCE_DEST }
+                }
+                developers {
+                    developer {
+                        id DEVELOPER_ID
+                        name DEVELOPER_NAME
+                    }
+                }
+            }
+        }
+    }
+}
 
 android {
     compileSdkVersion 26
