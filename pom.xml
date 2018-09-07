@@ -3,7 +3,7 @@
     <groupId>com.young.cyclemenudemo</groupId>
     <artifactId>cyclemenulayout</artifactId>
     <packaging>aar</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>cyclemenulayout</name>
     <url>http://maven.apache.org</url>
     <distributionManagement>
