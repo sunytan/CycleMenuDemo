@@ -1,5 +1,6 @@
+apply from: '../mvnpush.gradle'
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
+/*apply plugin: 'maven'
 
 uploadArchives {
     repositories {
@@ -35,7 +36,7 @@ uploadArchives {
             }
         }
     }
-}
+}*/
 
 android {
     compileSdkVersion 26

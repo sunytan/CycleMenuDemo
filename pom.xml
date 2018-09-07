@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.young.cyclemenudemo</groupId>
+    <artifactId>cyclemenulayout</artifactId>
+    <packaging>aar</packaging>
+    <version>1.0.0</version>
+    <name>cyclemenulayout</name>
+    <url>http://maven.apache.org</url>
+    <distributionManagement>
+        <repository>
+            <id>yang-tan</id>
+            <url>http://127.0.0.1:8081/repository/yangtan_mavenhost/</url>
+        </repository>
+        <snapshotRepository>
+            <id>yang-tan</id>
+            <url>http://127.0.0.1:8081/repository/yangtan_mavenhost/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <scm>
+        <developerConnection>scm:git@github.com:tanyang93/CycleMenuDemo.git</developerConnection>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>1.9.5</version>
+                <configuration>
+                    <connectionType>developerConnection</connectionType>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    　　<username>tanyang93</username>
+                    　　<password>ty19930417</password>
+                    　　<tagBase>https://github.com/tanyang93/CycleMenuDemo/tree/1.0.1</tagBase>
+                    　　<releaseProfiles>release</releaseProfiles>
+                    　　</configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
