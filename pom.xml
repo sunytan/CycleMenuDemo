@@ -1,57 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <link/>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.young.cyclemenudemo</groupId>
     <artifactId>cyclemenulayout</artifactId>
     <packaging>aar</packaging>
     <version>1.0.2</version>
     <name>cyclemenulayout</name>
-
-    <parent>
-        <groupId>org.apache.axis2</groupId>
-        <artifactId>axis2-parent</artifactId>
-        <version>1.6.1</version>
-        <!--<relativePath>../../parent/pom.xml</relativePath>-->
-    </parent>
-<!--    <artifactId>axis2-aar-maven-plugin</artifactId>
-    <packaging>maven-plugin</packaging>
-    <name>Apache Axis2 - tool - AAR Maven Plugin</name>-->
-    <description>
-        A Maven 2 plugin for creating Axis 2 service archives (aar files)
-    </description>
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-plugin-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-project</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-artifact</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-archiver</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.plexus</groupId>
-            <artifactId>plexus-utils</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.shared</groupId>
-            <artifactId>maven-plugin-testing-harness</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>commons-httpclient</groupId>
-            <artifactId>commons-httpclient</artifactId>
-        </dependency>
-    </dependencies>
-    <url>http://axis.apache.org/axis2/java/core/</url>
-
+    <url>http://maven.apache.org</url>
     <distributionManagement>
         <repository>
             <id>yang-tan</id>
@@ -63,66 +17,98 @@
         </snapshotRepository>
     </distributionManagement>
     <scm>
-        <!--<connection>
-            scm:svn:http://svn.apache.org/repos/asf/axis/axis2/java/core/tags/v1.6.1/modules/tool/axis2-aar-maven-plugin
-        </connection>
-        <developerConnection>
-            scm:svn:https://svn.apache.org/repos/asf/axis/axis2/java/core/tags/v1.6.1/modules/tool/axis2-aar-maven-plugin
-        </developerConnection>-->
-        <connection>
-            scm:git@github.com:tanyang93/CycleMenuDemo.git
-        </connection>
         <developerConnection>scm:git@github.com:tanyang93/CycleMenuDemo.git</developerConnection>
-        <!--<url>
-            http://svn.apache.org/viewvc/axis/axis2/java/core/tags/v1.6.1/modules/tool/axis2-aar-maven-plugin
-        </url>-->
     </scm>
+
     <build>
+
         <plugins>
+
             <plugin>
-                <artifactId>maven-remote-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>process</goal>
-                        </goals>
-                        <configuration>
-                            <resourceBundles>
-                                <resourceBundle>
-                                    org.apache.axis2:axis2-resource-bundle:${project.version}
-                                </resourceBundle>
-                            </resourceBundles>
-                        </configuration>
-                    </execution>
-                </executions>
+                <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.0.0-rc.2</version> <!-- use latest release -->
+                <extensions>true</extensions>
+
                 <configuration>
-                    <connectionType>developerConnection</connectionType>
+
+                    <sdk>
+                        <path>/home/yang-tan/Android/Sdk</path>
+                        <platform>26</platform>
+                    </sdk>
+                    <sourceDirectory>/home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/src</sourceDirectory>
+                    <!--<resources>
+                        <resource>
+                            <directory>/home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/src/main/res</directory>
+                            <excludes>
+                                <exclude>**/*.java</exclude>
+                            </excludes>
+                        </resource>
+                        <resource>
+                            <directory>/home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/src/main/java/resources</directory>
+                            <excludes>
+                                <exclude>**/*.java</exclude>
+                            </excludes>
+                        </resource>
+                    </resources>-->
+
+                    <resourceDirectory>/home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/src/main/res</resourceDirectory>
+                    <!--
+                    <androidManifestFile>${project.build.directory}/filtered-manifest/AndroidManifest.xml</androidManifestFile>
+                     -->
+                    <androidManifestFile>/home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/src/main/AndroidManifest.xml</androidManifestFile>
+                    <!--<nativeLibrariesDirectory>${project.basedir}/libs</nativeLibrariesDirectory>-->
+                    <!-- <proguardConfig>proguard.cfg</proguardConfig> -->
+                    <!--<proguardConfig>proguard-project.txt</proguardConfig>
+                    <proguardSkip>${project.build.proguardSkip}</proguardSkip>-->
+                    <!--<manifestDebuggable>${manifest.debuggable}</manifestDebuggable>
+
+                    <release>${project.build.release}</release>
+                    <run>
+                        <debug>${project.build.debug}</debug>
+                    </run>
+                    <runDebug>${project.build.runDebug}</runDebug>
+                    <sign>
+                        <debug>${project.build.sign.debug}</debug>
+                    </sign>-->
+                    <undeployBeforeDeploy>false</undeployBeforeDeploy>
+                    <mergeManifests>true</mergeManifests>
+                        <failOnNonStandardStructure>false</failOnNonStandardStructure>
+                    　　<username>tanyang93</username>
+                    　　<password>ty19930417</password>
+                    　　<tagBase>https://github.com/tanyang93/CycleMenuDemo/tree/1.0.2</tagBase>
+                    　　<releaseProfiles>release</releaseProfiles>
                 </configuration>
             </plugin>
 
-            <plugin>
+            <!--<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+                <encoding>utf-8</encoding>
+            </configuration>
+            </plugin>-->
+          <!--  <plugin>
+                <groupId>org.apache.axis2</groupId>
+                <artifactId>axis2-parent</artifactId>
+                <version>1.6.1</version>
+
+
+            </plugin>-->
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
                     　　<username>tanyang93</username>
                     　　<password>ty19930417</password>
-                    　　<tagBase>https://github.com/tanyang93/CycleMenuDemo/tree/1.0.2</tagBase>
+                    　　<tagBase>https://github.com/tanyang93/CycleMenuDemo/tree/1.0.1</tagBase>
                     　　<releaseProfiles>release</releaseProfiles>
                     　　</configuration>
-            </plugin>
-
+            </plugin>-->
         </plugins>
     </build>
-    <developers>
-        <developer>
-            <id>yang-tan</id>
-            <name>yang0tan</name>
-        </developer>
-    </developers>
-    <contributors>
-        <contributor>
-            <name>John Pfeifer</name>
-        </contributor>
-    </contributors>
 </project>
