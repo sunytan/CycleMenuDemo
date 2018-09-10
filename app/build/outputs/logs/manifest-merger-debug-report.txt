@@ -1,71 +1,41 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
-MERGED from [:cyclemenulayout] /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0c515c18e845233702e2b5692537c554/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/aca5cfebde197daa8d042b94a4b3191b/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/5d9af94b062a6d9c6436cf3834b0423d/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/3d1a93c9910fc65f83287588e9eb1060/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/afca2dbd64a83f0c5cc34467311fa7d9/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/da960eeceaed8133d94673bc49f67f2b/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/cdbdbb76772a6b562e278548ed3f90ba/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/cf0ffb29c5f3a5e1692997020c1246a4/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/930f3139386d30ed19475363d7686f4b/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
-		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-	android:versionCode
-		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:1-22:12
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 application
 ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:5:5-20:19
-MERGED from [:cyclemenulayout] /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-15:19
-MERGED from [:cyclemenulayout] /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0c515c18e845233702e2b5692537c554/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0c515c18e845233702e2b5692537c554/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/aca5cfebde197daa8d042b94a4b3191b/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/aca5cfebde197daa8d042b94a4b3191b/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/5d9af94b062a6d9c6436cf3834b0423d/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/5d9af94b062a6d9c6436cf3834b0423d/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/3d1a93c9910fc65f83287588e9eb1060/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/3d1a93c9910fc65f83287588e9eb1060/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/afca2dbd64a83f0c5cc34467311fa7d9/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/afca2dbd64a83f0c5cc34467311fa7d9/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/da960eeceaed8133d94673bc49f67f2b/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/da960eeceaed8133d94673bc49f67f2b/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/cdbdbb76772a6b562e278548ed3f90ba/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/cdbdbb76772a6b562e278548ed3f90ba/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/cf0ffb29c5f3a5e1692997020c1246a4/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/cf0ffb29c5f3a5e1692997020c1246a4/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/930f3139386d30ed19475363d7686f4b/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/930f3139386d30ed19475363d7686f4b/AndroidManifest.xml:29:5-20
-	android:supportsRtl
-		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:10:9-35
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/yang-tan/.android/build-cache/5a75c17c5c58e7c929ad98552178e0a08678ce39/output/AndroidManifest.xml:9:5-20
+MERGED from [CycleMenuDemo:cyclemenulayout:unspecified] /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/build/intermediates/bundles/default/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.android/build-cache/1c4e3504eab7a124e3f794745148c2811609f912/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.android/build-cache/cb22611c0657bb2577d33bf2e7d092f5eaab3152/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.android/build-cache/4cab0dde040304b219e96347c09550f9e51fc0f9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a6da4e990065e64fab0c06591359479a1b3e3208/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.android/build-cache/2acad56fb91ccef243c62c7e63550544f523087d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a538a95257db7879b228a85e3ff4ffe0202dd7f9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.android/build-cache/aee0a44f303761365ae3bf9d350cdb5c9d536056/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.android/build-cache/0edab0a0727184f6e01333104354f5bbc9fb1093/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a4f536f50f001c87d77aab7acdb4643e6a4cb306/output/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:10:9-35
 	android:roundIcon
 		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:9:9-54
-	android:icon
-		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
 		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.young.cyclemenudemo.MainActivity
@@ -86,61 +56,36 @@ ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/Andro
 		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-MERGED from [:cyclemenulayout] /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:cyclemenulayout] /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0c515c18e845233702e2b5692537c554/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/0c515c18e845233702e2b5692537c554/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/aca5cfebde197daa8d042b94a4b3191b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/aca5cfebde197daa8d042b94a4b3191b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/5d9af94b062a6d9c6436cf3834b0423d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/5d9af94b062a6d9c6436cf3834b0423d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/3d1a93c9910fc65f83287588e9eb1060/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/3d1a93c9910fc65f83287588e9eb1060/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/afca2dbd64a83f0c5cc34467311fa7d9/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/afca2dbd64a83f0c5cc34467311fa7d9/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/da960eeceaed8133d94673bc49f67f2b/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/da960eeceaed8133d94673bc49f67f2b/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/cdbdbb76772a6b562e278548ed3f90ba/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/cdbdbb76772a6b562e278548ed3f90ba/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/cf0ffb29c5f3a5e1692997020c1246a4/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/cf0ffb29c5f3a5e1692997020c1246a4/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/930f3139386d30ed19475363d7686f4b/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/930f3139386d30ed19475363d7686f4b/AndroidManifest.xml:21:5-23:58
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/yang-tan/.android/build-cache/5a75c17c5c58e7c929ad98552178e0a08678ce39/output/AndroidManifest.xml:5:5-7:41
+MERGED from [CycleMenuDemo:cyclemenulayout:unspecified] /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/cyclemenulayout/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.android/build-cache/1c4e3504eab7a124e3f794745148c2811609f912/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.android/build-cache/cb22611c0657bb2577d33bf2e7d092f5eaab3152/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.android/build-cache/4cab0dde040304b219e96347c09550f9e51fc0f9/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a6da4e990065e64fab0c06591359479a1b3e3208/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.android/build-cache/2acad56fb91ccef243c62c7e63550544f523087d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a538a95257db7879b228a85e3ff4ffe0202dd7f9/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.android/build-cache/aee0a44f303761365ae3bf9d350cdb5c9d536056/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.android/build-cache/0edab0a0727184f6e01333104354f5bbc9fb1093/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a4f536f50f001c87d77aab7acdb4643e6a4cb306/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.android/build-cache/1c4e3504eab7a124e3f794745148c2811609f912/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
-		ADDED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/yang-tan/AndroidStudioProjects/CycleMenuDemo/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/aca5cfebde197daa8d042b94a4b3191b/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.0-alpha1.aar/aca5cfebde197daa8d042b94a4b3191b/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/5d9af94b062a6d9c6436cf3834b0423d/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.0-alpha1.aar/5d9af94b062a6d9c6436cf3834b0423d/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/3d1a93c9910fc65f83287588e9eb1060/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.0-alpha1.aar/3d1a93c9910fc65f83287588e9eb1060/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/afca2dbd64a83f0c5cc34467311fa7d9/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.0-alpha1.aar/afca2dbd64a83f0c5cc34467311fa7d9/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/da960eeceaed8133d94673bc49f67f2b/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.0-alpha1.aar/da960eeceaed8133d94673bc49f67f2b/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/cdbdbb76772a6b562e278548ed3f90ba/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.0-alpha1.aar/cdbdbb76772a6b562e278548ed3f90ba/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/cf0ffb29c5f3a5e1692997020c1246a4/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.0-alpha1.aar/cf0ffb29c5f3a5e1692997020c1246a4/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/930f3139386d30ed19475363d7686f4b/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/930f3139386d30ed19475363d7686f4b/AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.android/build-cache/1c4e3504eab7a124e3f794745148c2811609f912/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/yang-tan/.android/build-cache/cb22611c0657bb2577d33bf2e7d092f5eaab3152/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/yang-tan/.android/build-cache/4cab0dde040304b219e96347c09550f9e51fc0f9/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a6da4e990065e64fab0c06591359479a1b3e3208/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/yang-tan/.android/build-cache/2acad56fb91ccef243c62c7e63550544f523087d/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a538a95257db7879b228a85e3ff4ffe0202dd7f9/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/yang-tan/.android/build-cache/aee0a44f303761365ae3bf9d350cdb5c9d536056/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/yang-tan/.android/build-cache/0edab0a0727184f6e01333104354f5bbc9fb1093/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/yang-tan/.android/build-cache/a4f536f50f001c87d77aab7acdb4643e6a4cb306/output/AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.android/build-cache/1c4e3504eab7a124e3f794745148c2811609f912/output/AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/fa1ab083ca985f0e3ce1ffddef364a6f/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/yang-tan/.android/build-cache/1c4e3504eab7a124e3f794745148c2811609f912/output/AndroidManifest.xml:26:9-47

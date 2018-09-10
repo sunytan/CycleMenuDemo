@@ -13,7 +13,7 @@
         android:label="Tests for com.young.cyclemenudemo"
         android:targetPackage="com.young.cyclemenudemo" />
 
-    <application android:debuggable="true" >
+    <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
