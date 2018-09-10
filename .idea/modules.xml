@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CycleMenuDemo.iml" filepath="$PROJECT_DIR$/CycleMenuDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CycleMenuDemo.iml" filepath="$PROJECT_DIR$/CycleMenuDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cyclemenulayout/cyclemenulayout.iml" filepath="$PROJECT_DIR$/cyclemenulayout/cyclemenulayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/cyclemenulayout/cyclemenulayout.iml" filepath="$PROJECT_DIR$/cyclemenulayout/cyclemenulayout.iml" />
     </modules>
   </component>
