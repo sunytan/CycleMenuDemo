@@ -14,8 +14,14 @@
  * limitations under the License.
  */
 
+apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'eclipse'
 apply plugin: 'signing'
+
+configurations {
+    deployerJars
+}
 
 def isReleaseBuild() {
     return PROJ_VERSION.contains("SNAPSHOT") == false
@@ -59,10 +65,10 @@ afterEvaluate { project ->
                 }
 
                 pom.project {
-                    name DEVELOPER_NAME
-                    packaging PACKAGE
-                    description POM_DESCRIPTION
-                    url POM_SCM_URL
+                    name = DEVELOPER_NAME
+                    packaging = PACKAGE
+                    description = POM_DESCRIPTION
+                    url = POM_SCM_URL
 
                     scm {
                         url POM_SCM_URL
@@ -94,19 +100,22 @@ afterEvaluate { project ->
         sign configurations.archives
     }
 
-    task androidJavadocs(type: Javadoc) {
-        source = android.sourceSets.main.java.srcDirs
-        classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    task javadocs(type: Javadoc) {
+        if (!getProperties().containsKey("android")) {
+            source = sourceSets.main.java.srcDirs
+        }
+
+        //classpath += project.files(getParent().getPath().join(File.pathSeparator))
     }
 
-    task androidJavadocsJar(type: Jar, dependsOn: androidJavadocs) {
+    task androidJavadocsJar(type: Jar, dependsOn: javadocs) {
         classifier = 'javadoc'
-        from androidJavadocs.destinationDir
+        from javadocs.destinationDir
     }
 
-    task androidSourcesJar(type: Jar) {
+    task androidSourcesJar(type: Jar, dependsOn:javadocs) {
         classifier = 'sources'
-        from android.sourceSets.main.java.sourceFiles
+        from javadocs.source.asFileTree
     }
 
     artifacts {

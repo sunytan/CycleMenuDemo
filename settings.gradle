@@ -1,1 +1,1 @@
-include ':app', ':cyclemenulayout'
+include ':app', ':cyclemenulayout', ':cyclyjavademo'

@@ -29,6 +29,10 @@ allprojects {
             url 'http://maven.aliyun.com/nexus/content/groups/public/'
         }
 
+        maven {
+            url 'http://127.0.0.1:8081/repository/yangtan_mavenhost/'
+        }
+
         jcenter()/*{
             url 'http://jcenter.bintray.com/'
         }*/
