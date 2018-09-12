@@ -1,4 +1,4 @@
-apply from: '../mvn_android_push.gradle'
+apply from: 'mvn_push.gradle'
 apply plugin: 'com.android.library'
 /*apply plugin: 'maven'
 
@@ -54,6 +54,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
+
     buildTypes {
         release {
             minifyEnabled false

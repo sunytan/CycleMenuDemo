@@ -3,10 +3,6 @@ apply from: 'config.gradle'
 
 buildscript {
     repositories {
-        /*maven {
-            url 'https://maven.google.com/'
-            name 'Google'
-        }*/
 
         maven {
             url 'http://maven.aliyun.com/nexus/content/groups/public/'
@@ -30,7 +26,7 @@ allprojects {
         }
 
         maven {
-            url 'http://127.0.0.1:8081/repository/yangtan_mavenhost/'
+            url 'http://172.17.0.1:8081/repository/young/'
         }
 
         jcenter()/*{

@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.example.cyclyjavademo.CycleTest;
 import com.young.cyclemenulayout.CycleMenuLayout;
 import com.young.cyclemenulayout.OnMenuItemClickListener;
 
@@ -21,7 +22,7 @@ public class MainFragment extends Fragment {
 
     private static final String TAG = "MainFragment";
     private CycleMenuLayout menuLayout;
-
+    CycleTest test;
     private int[] resImages = new int[]{
             R.mipmap.menu,
             R.mipmap.camera, R.mipmap.setting,
@@ -45,6 +46,7 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         Log.d(TAG, " onCreateView");
+        test = new CycleTest();
         View view = inflater.inflate(R.layout.fragment_main, null, false);
         menuLayout = (CycleMenuLayout) view.findViewById(R.id.fragment_cyclemenulayout);
         menuLayout.setMenuItemIcons(resImages, menuTexts);
@@ -73,7 +75,8 @@ public class MainFragment extends Fragment {
     private void doOnClick(View view,int pos,int resId) {
         if (resId == 0)
             return;
-        Toast.makeText(getActivity(), menuTexts[pos], Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(), menuTexts[pos] + test.getCycleTest(), Toast.LENGTH_SHORT).show();
+
         switch (resId) {
             case R.mipmap.camera:
                 break;

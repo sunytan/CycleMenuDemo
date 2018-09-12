@@ -1,4 +1,4 @@
-apply from: '../mvn_android_push.gradle'
+apply from: 'mvn_push.gradle'
 apply plugin: 'java-library'
 
 dependencies {
