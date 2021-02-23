@@ -10,6 +10,7 @@
         <attr name="center_height" format="dimension"/>
         <attr name="center_X" format="dimension"/>
         <attr name="center_Y" format="dimension"/>
+        <attr name="rotateAngle" format="float"/>
     </declare-styleable>
 
 </resources>

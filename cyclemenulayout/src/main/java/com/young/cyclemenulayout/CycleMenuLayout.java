@@ -28,7 +28,7 @@ public class CycleMenuLayout extends ViewGroup {
     /**
      * 布局旋转总角度
      */
-    private static float mTotalAngle = 0.0f;
+    private float mTotalAngle = 0.0f;
 
     /**
      * 判断是否是滑动事件,不是则响应点击事件
@@ -110,6 +110,11 @@ public class CycleMenuLayout extends ViewGroup {
     private int center_height;
 
     /**
+     * 旋转角度，默认上半圆，旋转角度0
+     */
+    private float rotateAngle;
+
+    /**
      * 圆心坐标
      */
     private int center_X;
@@ -138,6 +143,7 @@ public class CycleMenuLayout extends ViewGroup {
             center_height = (int)typedArray.getDimension(R.styleable.CycleMenuLayout_center_height,getResources().getDimension(R.dimen.center_height));
             center_X = (int)typedArray.getDimension(R.styleable.CycleMenuLayout_center_X,0.0f);
             center_Y = (int)typedArray.getDimension(R.styleable.CycleMenuLayout_center_Y,0.0f);
+            rotateAngle = (int) typedArray.getFloat(R.styleable.CycleMenuLayout_rotateAngle,0);
         }catch (Exception e){
             e.printStackTrace();
         } finally {
@@ -227,13 +233,20 @@ public class CycleMenuLayout extends ViewGroup {
         return count;
     }
 
+    private boolean isFirst = true;
+
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         final int childCount = getChildCount();
         int left, top;
         mTotalAngle %= 360.0f;
         float startAngle = mTotalAngle;
+        if (isFirst) {
+            startAngle += rotateAngle;
+            isFirst = false;
+        }
         // (n-7)*30 + 180 ,n 就是item个数
+        Log.d(TAG,"startAngle = "+startAngle);
         float maxAngle = (mMenusItemImgs.length - getVisibleCount())*angle_interval + 180;
         for (int i = 0; i < childCount; i++) {
             final View child = getChildAt(i);
@@ -252,12 +265,12 @@ public class CycleMenuLayout extends ViewGroup {
             }
             if (startAngle < 0) {
                 //为了边缘分界线处，图标平滑出现，在-60 的基础+angle_interval/2度
-                if (startAngle <= -60 + angle_interval/2) {
+                if (startAngle <= -60+ rotateAngle + angle_interval/2) {
                     startAngle = startAngle + maxAngle;
                 }
             } else {
                 //为了边缘分界线处，图标平滑出现，在240 的基础 -angle_interval/2度
-                if (startAngle >= 240 - angle_interval/2) {
+                if (startAngle >= 240 +rotateAngle - angle_interval/2) {
                     startAngle = startAngle - maxAngle;
                 }
             }

@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:angle_interval="45"
+        app:rotateAngle = "-90"
         app:radius="300px"
         app:center_X="800px"
         app:center_Y="550px"
