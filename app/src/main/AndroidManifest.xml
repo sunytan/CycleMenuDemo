@@ -18,9 +18,9 @@
             </intent-filter>
         </activity>
 
-        <uses-library android:name="cyclejavademo"
-            android:required="true">
-        </uses-library>
+<!--        <uses-library android:name="cyclejavademo"-->
+<!--            android:required="true">-->
+<!--        </uses-library>-->
     </application>
 
 </manifest>

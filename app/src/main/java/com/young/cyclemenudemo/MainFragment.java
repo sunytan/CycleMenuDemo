@@ -3,14 +3,14 @@ package com.young.cyclemenudemo;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.Nullable;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.cyclyjavademo.CycleTest;
+import androidx.annotation.Nullable;
 import com.young.cyclemenulayout.CycleMenuLayout;
 import com.young.cyclemenulayout.OnMenuItemClickListener;
 
@@ -22,13 +22,12 @@ public class MainFragment extends Fragment {
 
     private static final String TAG = "MainFragment";
     private CycleMenuLayout menuLayout;
-    CycleTest test;
     private int[] resImages = new int[]{
             R.mipmap.menu,
             R.mipmap.camera, R.mipmap.setting,
             R.mipmap.contact, R.mipmap.community,
             R.mipmap.map, R.mipmap.message,
-            R.mipmap.phone, R.mipmap.security,
+            R.mipmap.phone
     };
     private String[] menuTexts = new String[]{
             "中心菜单",
@@ -38,15 +37,13 @@ public class MainFragment extends Fragment {
             "社区",
             "地图",
             "消息提示",
-            "电话",
-            "安全",
+            "电话"
     };
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         Log.d(TAG, " onCreateView");
-        test = new CycleTest();
         View view = inflater.inflate(R.layout.fragment_main, null, false);
         menuLayout = (CycleMenuLayout) view.findViewById(R.id.fragment_cyclemenulayout);
         menuLayout.setMenuItemIcons(resImages, menuTexts);
@@ -75,7 +72,6 @@ public class MainFragment extends Fragment {
     private void doOnClick(View view,int pos,int resId) {
         if (resId == 0)
             return;
-        Toast.makeText(getActivity(), menuTexts[pos] + test.getCycleTest(), Toast.LENGTH_SHORT).show();
 
         switch (resId) {
             case R.mipmap.camera:
